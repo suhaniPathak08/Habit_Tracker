@@ -86,6 +86,7 @@ http://localhost:5173
 ```
 
 🔗 Frontend–Backend Connection
+```
 •	All frontend API calls use:
 •	const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
 •	JWT token is stored in localStorage after login
@@ -93,7 +94,7 @@ http://localhost:5173
 •	Authorization: Bearer <token>
 •	Backend CORS allows requests from:
 •	http://localhost:5173
-
+```
 
 🧪 How to Use
 1.	Start the backend server
@@ -107,6 +108,7 @@ http://localhost:5173
 
 
 📌 API Endpoints
+```
 Authentication
 •	POST /api/auth/signup
 •	POST /api/auth/login
@@ -116,6 +118,6 @@ Habits
 •	PUT /api/habits/:id
 •	DELETE /api/habits/:id
 •	POST /api/habits/:id/toggle
-
+```
 
 

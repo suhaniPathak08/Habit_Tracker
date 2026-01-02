@@ -47,7 +47,7 @@ my-habit-app/
 ### Frontend
 - React (Vite)
 - JavaScript
-- Bootstrap 5
+- Bootstrap
 - Chart.js
 - React Router DOM
 
@@ -63,21 +63,27 @@ my-habit-app/
 
 
 ### 1️⃣ Backend Setup 
+```
 cd server
 npm install
 npm run dev   # or npm start
+
 Backend runs at:
 http://localhost:4000
+```
 
 2️⃣ Frontend Setup
+```
 cd frontend
 npm install
 Create a .env file inside the frontend folder:
 VITE_API_BASE_URL=http://localhost:4000/api
 Start the frontend:
 npm run dev
+
 Frontend runs at:
 http://localhost:5173
+```
 
 🔗 Frontend–Backend Connection
 •	All frontend API calls use:

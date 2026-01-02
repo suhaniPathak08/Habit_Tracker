@@ -61,9 +61,8 @@ my-habit-app/
 
 ## ⚙️ Installation & Setup
 
-### 1️⃣ Backend Setup
 
-```bash
+### 1️⃣ Backend Setup 
 cd server
 npm install
 npm run dev   # or npm start
